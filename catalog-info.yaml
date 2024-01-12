@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testi"
+  description: "testing things"
+  annotations:
+    sonarqube.org/project-key: testi
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: experimental
